@@ -1,16 +1,21 @@
 <?xml version="1.0"?>
-<package>
-  <metadata>
-    <id>$id$</id>
-    <version>$version$</version>
-    <title>$title$</title>
-    <authors>WebApiContrib Contributors</authors>
-    <owners>ChrisMissal pedroreys panesofglass alexzeitler darrelmiller</owners>
-    <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <description>$description$</description>
-    <projectUrl>https://github.com/WebApiContrib/WebApiContrib.Tracing.NLog</projectUrl>
-    <licenseUrl>https://raw.github.com/WebApiContrib/WebApiContrib.Tracing.NLog/master/LICENSE.txt</licenseUrl>
-    <copyright>Copyright © WebApiContrib 2012 - 2013</copyright>
-    <tags>webapi webapicontrib nlog logging</tags>
-  </metadata>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+    <metadata>
+        <id>$id$</id>
+        <version>$version$</version>
+        <title>$title$</title>
+        <authors>WebApiContrib Contributors</authors>
+        <owners>ChrisMissal pedroreys panesofglass alexzeitler darrelmiller</owners>
+        <licenseUrl>https://raw.github.com/WebApiContrib/WebApiContrib.Tracing.NLog/master/LICENSE.txt</licenseUrl>
+        <projectUrl>https://github.com/WebApiContrib/WebApiContrib.Tracing.NLog</projectUrl>
+        <iconUrl>https://raw.github.com/WebApiContrib/Inventory/master/assets/images/logo-200x200.png</iconUrl>
+        <requireLicenseAcceptance>false</requireLicenseAcceptance>
+        <description>$description$</description>
+        <copyright>Copyright © WebApiContrib 2012 - 2015</copyright>
+        <tags>webapi webapicontrib nlog logging</tags>
+        <dependencies>
+            <dependency id="Microsoft.AspNet.WebApi.Core" version="4.0.20710" />
+            <dependency id="NLog" version="(2.0.0.2000,)" />
+        </dependencies>
+    </metadata>
 </package>

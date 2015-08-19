@@ -1,9 +1,16 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2012
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApiContrib.Tracing.Nlog", "src\WebApiContrib.Tracing.Nlog\WebApiContrib.Tracing.Nlog.csproj", "{1D789CE1-E910-446D-AFF2-A1987B8B7EAB}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApiContrib.Tracing.Nlog.Tests", "test\WebApiContrib.Tracing.Nlog.Tests\WebApiContrib.Tracing.Nlog.Tests.csproj", "{E0A1876E-2500-49B6-B260-31C287FF584A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{AF0E364E-33E8-4984-9CA1-F5C0081C9442}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\packages.config = .nuget\packages.config
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
